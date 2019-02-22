@@ -26,8 +26,7 @@
       border-radius: 5px;
 
       @media @phone {
-        width: 100%;
-        height: auto;
+        .imgFullWidth();
       }
     }
   }
@@ -120,6 +119,11 @@
           width: 100%;
           height: 60px;
         }
+      }
+
+      button:hover {
+        background-color: @porcelain;
+        color: @btn-bg-color;
       }
     }
 
